@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+body{
+  font-family: 'Caveat', cursive;
+  background: #8c52ff;
+}
+
+section{
+  text-align: center;
+  margin: auto;
+  background: white;
+  border-radius: 10px;
+  width: 400px;
+  margin-top: 75px;
+  box-shadow: 0px 10px 36px 16px rgb(0, 0, 0);
+}
+
+.game--title{
+  padding: 20px;
+  background: white;
+}
+
+.game--container{
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 150px;
+  margin: 120px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.cell{
+  font-family: 'Caveat', cursive;
+  width: 50px;
+  height: 50px;
+  box-shadow: 0 0 0 1px #333333;
+  border: 1px solid #333333;
+  cursor: pointer;
+  line-height: 50px;
+  font-size: 20px;
+  background-color: white;
+}
+
+button{
+  color: white;
+  cursor: pointer;
+  margin-bottom: 20px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  background: #8c52ff;
+}
+
+button:hover{
+  transition: 0.25s;
+  background: #c1a2fe;
+}
+
+
+
