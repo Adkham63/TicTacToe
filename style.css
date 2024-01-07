@@ -49,6 +49,7 @@ button{
   border: none;
   border-radius: 5px;
   background: #8c52ff;
+  font-family: 'Caveat', cursive;
 }
 
 button:hover{
